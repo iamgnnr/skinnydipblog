@@ -51,7 +51,7 @@ const BlogIndex = ({ data, location }) => {
                       }}
                       itemProp="author"
                     />
-                    <small>{post.frontmatter.date}</small>
+                    <p>{post.frontmatter.date}</p>
                   </section>
                   </header>
                 </div>
