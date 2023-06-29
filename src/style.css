@@ -295,8 +295,11 @@ a:focus {
   padding-top: 2em;
   padding: 1.3em;
   padding-bottom: 3em;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 
 .post-body #text {
   padding-bottom: 1.3em;
@@ -308,7 +311,6 @@ a:focus {
 
 .about-us {
   padding-top: 2.7em;
-  max-width: 600px;
 }
 
 footer {

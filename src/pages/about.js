@@ -13,7 +13,7 @@ const AboutPage = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <div className="article-card">
-        <h1>About</h1>
+        <div className="about-title"><h1>About</h1></div>
         <StaticImage
           className="aboutImage"
           formats={["auto", "webp", "avif"]}
