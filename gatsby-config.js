@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Psych0p0mp`,
+    title: `Skinny Dip`,
     author: {
       name: `Gunnar Bachelor`,
       summary: `Psych0p0mp is a digital journal about psychedelic art and spirituality.`,

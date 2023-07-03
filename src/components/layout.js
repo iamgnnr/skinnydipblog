@@ -1,5 +1,8 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -30,8 +33,11 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        <p>© {new Date().getFullYear()} <span className="footer_logo">Psych0p0mp</span>.</p>
-        <p>Created by <a href="https://twitter.com/justgnnr">gnnr</a>.</p>
+        <p>© {new Date().getFullYear()} <span className="footer_logo">{title}</span>.</p>
+        <div className="footer_links">
+          <a href="">Follow us on Instagram.</a><span>  </span>
+          <FontAwesomeIcon icon={faInstagram} size="lg" />
+        </div>
       </footer>
     </div>
   )

@@ -316,7 +316,7 @@ a:focus {
 footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   max-width: var(--maxWidth-wrapper);
 }
 
