@@ -1,7 +1,7 @@
 ---
 title: Artists Will Change The World With Blockchain Technology
 date: "2023-03-10T23:46:37.121Z"
-author: "Max Savage"
+author: "James South"
 featuredImage: bitcoin_illustration.png
 ---
 

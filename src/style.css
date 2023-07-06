@@ -262,6 +262,12 @@ a:focus {
   margin-bottom: var(--spacing-4);
 }
 
+.post-data-container {
+  display: flex;
+  justify-content: space-between;
+  min-width: var(--spacing-8);
+}
+
 .header-link-home {
   font-family: 'Offside', cursive;
   font-weight: var(--fontWeight-bold);
