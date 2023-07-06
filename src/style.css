@@ -391,6 +391,13 @@ footer {
         gap: 3rem;
       }
 
+      .about-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+  }
+
+
 }
 
 
@@ -404,5 +411,12 @@ footer {
       display: block; 
       columns: 3;
       gap: 2rem;
-}
+    }
+
+    .about-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 2em;
+    }
+
 }
