@@ -45,14 +45,8 @@ const BlogIndex = ({ data, location }) => {
                       </Link>
                     </h2>
                      <section className="post-label">
-                    <p
-                      dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.author
-                      }}
-                      itemProp="author"
-                    />
-                    <p>{post.frontmatter.date}</p>
-                  </section>
+                      <p>{post.frontmatter.date}</p>
+                     </section>
                   </header>
                 </div>
               </article>
@@ -89,7 +83,6 @@ export const pageQuery = graphql`
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
           title
-          author
           description
           featuredImage {
             childImageSharp {

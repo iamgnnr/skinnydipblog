@@ -24,18 +24,10 @@ const AboutPage = ({ data, location }) => {
             alt="Psych0p0mp"
           />
           <p className="about-us">
+            Welcome to Skinny Dip, a blog dedicated to unveiling the enchanting intersection of technology and nature through the art of poetry. I built this blog is a testament to the harmonious coexistence of two seemingly disparate realms – the ever-evolving virtual landscape and the timeless beauty of Nature. Every poem and image featured here is created by artificial intelligence, and inspired by the natural world.
 
-At Skinny Dip, we believe in the power of storytelling and the art of weaving narratives that capture the essence of real-life experiences. Through our blog, we strive to celebrate the beauty, complexity, and authenticity of the human experience by curating a collection of thought-provoking and captivating essays.
-
-Our team of passionate writers, avid readers, and literary enthusiasts are dedicated to exploring the vast landscape of human stories, transcending genres and boundaries. We seek to delve into the depths of personal journeys, memories, and observations, bringing forth the raw emotions and universal truths that connect us all.
-
-Our blog serves as a platform for both established and emerging writers to share their unique perspectives and narratives. We are passionate about fostering a diverse and inclusive community, where voices from different backgrounds, cultures, and experiences can be heard and appreciated. Through these diverse voices, we hope to inspire empathy, understanding, and connection among our readers.
-
-In addition to our curated collection of essays, memoirs, and personal narratives, we also provide valuable resources and writing tips for aspiring creative nonfiction writers. We believe in nurturing and supporting the literary community, offering guidance and encouragement to those who seek to explore the realm of nonfiction storytelling.
-
-Whether you are an avid reader, a writer searching for inspiration, or someone simply curious about the power of personal narratives, we invite you to embark on this journey with us. Together, let's celebrate the magic of true stories and the incredible power of personal testimony.
-
-Welcome to Skinny Dip, where creativity meets truth.</p>
+In a world where screens have become our windows to the outside, this blog is an invitation to embark on a poetic journey that marries the wonders of technology with the awe-inspiring creations of nature. To learn more about how I built this blog check out my Medium article about the project.
+          </p>
         </div>
       </div>
     </Layout>

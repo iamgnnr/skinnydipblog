@@ -299,11 +299,9 @@ a:focus {
 
 .article-card {
   padding-top: 2em;
-  padding: 1.3em;
   padding-bottom: 3em;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 
@@ -320,22 +318,11 @@ a:focus {
 }
 
 footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
   max-width: var(--maxWidth-wrapper);
 }
 
 .footer_logo {
   font-family: Offside, cursive;
-}
-
-.post-label {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 13rem;
 }
 
 
@@ -345,7 +332,6 @@ footer {
 
 .post-list-item {
   break-inside: avoid;
-
 }
 
 .post-grid {
@@ -386,8 +372,8 @@ footer {
   and (max-device-width: 1180px) {
   
       .post-grid {
-        display: block; 
-        columns: 2;
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
         gap: 3rem;
       }
 
@@ -408,8 +394,8 @@ footer {
   and (-webkit-min-device-pixel-ratio: 1) { 
 
     .post-grid {
-      display: block; 
-      columns: 3;
+      display: grid; 
+      grid-template-columns: 1fr 1fr 1fr;
       gap: 2rem;
     }
 

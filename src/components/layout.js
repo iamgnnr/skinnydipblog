@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 
 const Layout = ({ location, title, children }) => {
@@ -33,11 +33,11 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        <p>© {new Date().getFullYear()} <span className="footer_logo">{title}</span>.</p>
-        <div className="footer_links">
-          <a href="">Follow us on Instagram.</a><span>  </span>
-          <FontAwesomeIcon icon={faInstagram} size="lg" />
-        </div>
+        <p>Created by Gunnar Bachelor &nbsp;
+        <a href="https://twitter.com/justgnnr">
+            <FontAwesomeIcon icon={faTwitter} size="lg" />
+        </a>
+        </p>
       </footer>
     </div>
   )
